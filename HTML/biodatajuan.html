@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata</title>
+
+<frameset rows="25%,65%,10%">
+    <frame src="header.html" noresize >
+    <frameset cols="15%,67%,18%">
+    <frame src="menu.html">
+   <frame src="home.html" name="kanan">
+    </frameset>
+    <frame src="footer.html" noresize scrolling=no>
+</frameset>
+
+<style>
+   
+body, frameset, frame {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+
+frame {
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+frame[src="header.html"] {
+    background-color: #f7f7f7;
+    border-bottom: 3px solid #1974ea;
+}
+
+frame[src="menu.html"] {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border-right: 2px solid #1a73e8;
+}
+
+
+frame[src="home.html"] {
+    background-color: #387ec0;
+}
+
+
+frame[src="footer.html"] {
+    background-color: #f7f7f7;
+    border-top: 3px solid #1a73e8;
+    text-align: center;
+}
+
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+</style>
+</head>
+
+</html>
